@@ -1,0 +1,42 @@
+﻿
+
+@using Microsoft.AspNetCore.Authorization
+
+@inject IAuthorizationService authorizationService
+
+@{
+    var resultAuthorize = await authorizationService.AuthorizeAsync(this.User, "ShowAdminMenu");
+}
+
+
+@if (resultAuthorize.Succeeded)
+{
+    <a style="color: white" class="nav-link" asp-area="AdminCP" asp-controller="AdminCP" asp-action="Index">Quản lý trị web</a>
+
+    @*<div class="dropdown">
+        <button style="font-family: cursive; color: #ffcc80" type="button" class="dropdown-toggle btn btn-outline-danger" data-bs-toggle="dropdown">
+            <i class="fas fa-cog"></i>
+            Quản lý hệ thống
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+
+            <li><a class="dropdown-item" asp-area="Identity" asp-controller="Role" asp-action="Index">Quản lý Role</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" asp-area="Identity" asp-controller="User" asp-action="Index">Quản lý User</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" asp-area="Contact" asp-controller="Contact" asp-action="Index">Quản lý liên hệ</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" asp-area="Blog" asp-controller="Category" asp-action="Index">Quản lý chuyên mục Blog</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" asp-area="Blog" asp-controller="Post" asp-action="Index">Quản lý bài post</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" asp-area="Product" asp-controller="CategoryProduct" asp-action="Index">Quản lý chuyên mục sản phẩm</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" asp-area="Product" asp-controller="ProductManage" asp-action="Index">Quản lý sản phẩm</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a target="_blank" class="dropdown-item" asp-area="Files" asp-controller="FileManager" asp-action="Index">Quản lý files</a></li>
+        </ul>
+    </div>*@
+}
+
+

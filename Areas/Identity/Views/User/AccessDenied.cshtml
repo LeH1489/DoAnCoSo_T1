@@ -1,0 +1,23 @@
+
+@using HocAspMVC4_Test.Menu
+@inject AdminSidebarService _AdminSidebarService
+
+
+@{
+    ViewData["Title"] = "Hạn chế truy cập";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<header>
+    <h1 class="text-danger">@ViewData["Title"]</h1>
+    <p class="text-danger">Bạn không được phép truy cập chức năng này.</p>
+</header>
+
+@{
+    _AdminSidebarService.SetActive("User", "Index", "Identity"); //controller - action - area
+}
+
+@section Sidebar{
+
+    @Html.Raw(_AdminSidebarService.renderHtml())
+}

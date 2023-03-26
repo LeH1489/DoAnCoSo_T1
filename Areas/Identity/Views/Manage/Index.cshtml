@@ -1,0 +1,63 @@
+﻿
+
+
+@model IndexViewModel
+@{
+    ViewData["Title"] = "Quản lý tài khoản của bạn";
+}
+
+<h1>@ViewData["Title"].</h1>
+<p class="text-success">@ViewData["StatusMessage"]</p>
+
+
+
+<div>
+    <h4>Cập nhật thông tin tài khoản</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">Thông tin cơ bản:</dt>
+        <dd class="col-sm-6"> 
+            <dl class="row">
+                 <dt class = "col-sm-6">
+                    @Html.DisplayNameFor(m => Model.profile.UserName)
+                 </dt>   
+                 <dd class = "col-sm-6">
+                    @Html.DisplayFor(m => Model.profile.UserName)
+                 </dd>
+            </dl>
+             <dl class="row">
+                 <dt class = "col-sm-6">
+                    @Html.DisplayNameFor(m => Model.profile.UserEmail)
+                 </dt>   
+                 <dd class = "col-sm-6">
+                    @Html.DisplayFor(m => Model.profile.UserEmail)
+                 </dd>
+            </dl>
+              <dl class="row">
+                 <dt class = "col-sm-6">
+                    @Html.DisplayNameFor(m => Model.profile.PhoneNumber)
+                 </dt>   
+                 <dd class = "col-sm-6">
+                    @Html.DisplayFor(m => Model.profile.PhoneNumber)
+                 </dd>
+            </dl>
+               <dl class="row">
+                 <dt class = "col-sm-6">
+                    @Html.DisplayNameFor(m => Model.profile.HomeAdress)
+                 </dt>   
+                 <dd class = "col-sm-6">
+                    @Html.DisplayFor(m => Model.profile.HomeAdress)
+                 </dd>
+            </dl>                   
+                <dl class="row">
+                 <dt class = "col-sm-6">
+                    @Html.DisplayNameFor(m => Model.profile.BirthDate)
+                 </dt>   
+                 <dd class = "col-sm-6">
+                    @Html.DisplayFor(m => Model.profile.BirthDate)
+                 </dd>
+            </dl>      
+            <a asp-action="EditProfile" class="btn btn-primary btn-sm">Sửa</a>
+        </dd>
+    </dl>
+</div>

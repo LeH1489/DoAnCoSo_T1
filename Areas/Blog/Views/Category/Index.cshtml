@@ -1,0 +1,79 @@
+
+@model IEnumerable<Test123.Models.Category>
+
+@using HocAspMVC4_Test.Menu
+@inject AdminSidebarService _AdminSidebarService
+
+
+@{
+    ViewData["Title"] = "Chuyên mục Blog";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-small">Tạo chuyên mục</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Slug)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) //mỗi danh mục cha nó sẽ lấy ra danh mục con của nó
+        {
+            await RenderCategory(item, 0);  //vì là danh mục cha nên level = 0
+                                            //vì model truyền tới chỉ có danh mục cha nhưng nó có kèm theo các danh mục con
+                                            //(muốn từ danh mục cha đó lấy ra những danh mục con của nó thì dùng method này)
+        }
+    </tbody>
+</table>
+
+
+<!--Đoạn code này dùng để xử lý lấy ra những danh mục con-->
+@{
+    async Task RenderCategory(Category item, int level) //level là cấp độ của chuyên mục
+    {
+        //mỗi cấp độ nó thụt vào 4 dấu cách
+        string prefix = string.Concat(Enumerable.Repeat("&nbsp;&nbsp;&nbsp;&nbsp", level));
+
+        <tr>
+            <td>
+                @Html.Raw(prefix) <a asp-action="Edit" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Title)</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Slug)
+            </td>
+            <td>
+
+                <a asp-action="Details" asp-route-id="@item.Id">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+            </td>
+        </tr>
+        @if (item.CategoryChildren?.Count > 0)  //nếu có danh mục con
+        {
+            foreach (var cCategory in item.CategoryChildren) //duyệt qua từng danh mục con đó
+            {
+                await RenderCategory(cCategory, level + 1); //đệ quy gọi lại chính method này
+            }
+        }
+    }
+}
+
+@*@{
+    _AdminSidebarService.SetActive("Category", "Index", "Blog"); //controller - action - area
+}
+
+@section Sidebar{
+
+    @Html.Raw(_AdminSidebarService.renderHtml())
+}*@

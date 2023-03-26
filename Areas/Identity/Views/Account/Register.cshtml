@@ -1,0 +1,123 @@
+﻿
+
+@using HocAspMVC4.Models;
+
+@inject SignInManager<AppUser> SignInManager
+
+@model RegisterViewModel
+
+@{
+    ViewData["Title"] = "Đăng ký tài khoản";
+    Layout = "_LoginLayout.cshtml";
+}
+
+
+<style>
+    .bg-register-image {
+        background-image: url(https://images7.alphacoders.com/614/614660.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: white;
+    }
+</style>
+
+<!--sửa-->
+<div class="card o-hidden border-0 shadow-lg my-5">
+    <div class="card-body p-0">
+        <!-- Nested Row within Card Body -->
+        <div class="row">
+            <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+            <div class="col-lg-7">
+                <div class="p-5">
+                    <div class="text-center">
+                        <h1 class="h4 text-gray-900 mb-4">Đăng ký tài khoản!</h1>
+                    </div>
+                    <form class="user" asp-controller="Account" asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <input asp-for="UserName" class="form-control form-control-user" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input asp-for="Email" class="form-control form-control-user" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                <input asp-for="Password" class="form-control form-control-user">
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="col-sm-6">
+                                <input asp-for="ConfirmPassword" class="form-control form-control-user">
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-user btn-block">Đăng ký</button>
+
+                        <hr>
+                        @{
+                            //GetExternalAuthenticationSchemesAsync: chứa thông tin các LogInProvider (gg, facebook)
+                            var schemes = await SignInManager.GetExternalAuthenticationSchemesAsync();
+                            var loginProviders = schemes.ToList();
+                            if (loginProviders.Count == 0)
+                            {
+
+                            }
+                            else
+                            {
+                                <form asp-controller="Account" asp-action="ExternalLogin" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal" role="form">
+                                    <div>
+                                        <p>
+                                            @foreach (var provider in loginProviders)
+                                            {
+                                                var cssClass = "btn btn-user btn-block";
+                                                var icon = "";
+                                                if (provider.Name == "Google")
+                                                {
+                                                    cssClass = "btn btn-google btn-user btn-block";
+                                                    icon = " <i class=\"fab fa-google fa-fw\"></i>";
+                                                }
+
+                                                else if (provider.Name == "Facebook")
+                                                {
+                                                    cssClass = "btn btn-facebook btn-user btn-block";
+                                                    icon = "<i class=\"fab fa-facebook-f fa-fw\"></i>";
+                                                }
+                                                <button type="submit"
+                                                        class="@cssClass"
+                                                        name="provider"
+                                                        value="@provider.Name"
+                                                        title="Log in using your @provider.Name account">
+                                                    @Html.Raw(@icon) Đăng ký với @provider.Name
+                                                </button>
+                                            }
+                                        </p>
+                                    </div>
+                                </form>
+                            }
+                        }
+
+                    </form>
+                    <hr>
+                    <div class="text-center">
+                        <a class="small" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]">Đã có tài khoản? Đăng nhập ngay!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--sửa-->
+
+
+
+
+
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

@@ -1,0 +1,329 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DoAnCoSo
+build_property.RootNamespace = DoAnCoSo
+build_property.ProjectDir = /Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9DYXRlZ29yeS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9DYXRlZ29yeS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9DYXRlZ29yeS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9DYXRlZ29yeS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9DYXRlZ29yeS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Post/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9Qb3N0L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Post/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9Qb3N0L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Post/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9Qb3N0L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Post/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9Qb3N0L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9Qb3N0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/ViewPost/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9WaWV3UG9zdC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/ViewPost/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9WaWV3UG9zdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/ViewPost/_LayoutBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9WaWV3UG9zdC9fTGF5b3V0QmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/ViewPost/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9WaWV3UG9zdC9fVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9fU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Blog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQmxvZy9WaWV3cy9fVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9Db25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/ErrorConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9FcnJvckNvbmZpcm1FbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/ExternalLoginConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9FeHRlcm5hbExvZ2luQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/ExternalLoginFailure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9FeHRlcm5hbExvZ2luRmFpbHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9Mb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9SZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/SendCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9TZW5kQ29kZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/UseRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9Vc2VSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/VerifyAuthenticatorCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9WZXJpZnlBdXRoZW50aWNhdG9yQ29kZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/VerifyCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9WZXJpZnlDb2RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9fTG9naW5MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Account/_RegisterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvQWNjb3VudC9fUmVnaXN0ZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL0FjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/AddPhoneNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL0FkZFBob25lTnVtYmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL0NoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/DisplayRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL0Rpc3BsYXlSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL0VkaXRQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/ManageLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL01hbmFnZUxvZ2lucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL1NldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Manage/VerifyPhoneNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvTWFuYWdlL1ZlcmlmeVBob25lTnVtYmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Role/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvUm9sZS9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Role/AddRoleClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvUm9sZS9BZGRSb2xlQ2xhaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvUm9sZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Role/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvUm9sZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Role/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvUm9sZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Role/EditRoleClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvUm9sZS9FZGl0Um9sZUNsYWltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvUm9sZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvVXNlci9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/User/AddClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvVXNlci9BZGRDbGFpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/User/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvVXNlci9BZGRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/User/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvVXNlci9TZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Areas/Identity/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvX1N0YXR1c01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Components/CategorySidebar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcG9uZW50cy9DYXRlZ29yeVNpZGViYXIvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_AdminMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbk1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_AlertMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BbGVydE1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_MenuManagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19NZW51TWFuYWdlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_PagingXTL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19QYWdpbmdYVEwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TdGF0dXNNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_Summernote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TdW1tZXJub3RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhai9209/Projects/DoAnCoSo/DoAnCoSo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-npnbc0v57t

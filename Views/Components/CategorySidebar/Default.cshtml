@@ -1,0 +1,49 @@
+﻿
+
+@model HocAspMVC4_Test.Views.Shared.Components.CategorySidebar.CategorySidebar.CategorySibarData
+
+@using HocAspMVC4_Test.Views.Shared.Components.CategorySidebar
+
+@{
+    int level = Model.level;
+}
+
+@if (Model.Categories.Count > 0)
+{
+    @if (level == 0)
+    {
+        @Html.Raw("<div class=\"category-box\">");
+        <h6 style="font-weight: 600">
+            <a asp-controller="ViewPost" asp-action="Index" asp-route-categoryslug="">
+                Chuyên Mục
+            </a>
+        </h6>
+    }
+<div>
+    @foreach (var category in Model.Categories)
+    {
+        var cssActive = (category.Slug == Model.categoryslug) ? "active" : null;
+        <hr />
+        <div class="category-box-description @cssActive">
+            <a class="@cssActive" asp-controller="ViewPost" asp-action="Index" asp-route-categoryslug="@category.Slug">
+                @category.Title
+            </a>
+
+            @if (category.CategoryChildren?.Count > 0)
+            {
+                @await Component.InvokeAsync("HocAspMVC4_Test.Views.Shared.Components.CategorySidebar.CategorySidebar", new CategorySidebar.CategorySibarData()
+                 {
+                       //gọi đệ quy
+                     Categories = category.CategoryChildren.ToList(),
+                     level = level + 1,
+                     categoryslug = ViewBag.categoryslug
+                 })
+            }
+        </div>
+    }
+</div>
+    @if (level == 0)
+    {
+        @Html.Raw("</div>");
+    }
+}

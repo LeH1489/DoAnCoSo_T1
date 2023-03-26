@@ -1,0 +1,14 @@
+﻿
+
+@{
+   Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-xl-9 col-md-12">
+        @RenderBody()
+    </div>
+    <div class="col-xl-3">
+        @RenderSection("Sidebar", false)
+    </div>
+</div>

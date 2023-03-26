@@ -1,0 +1,53 @@
+
+
+@model List<RoleModel>
+
+@using HocAspMVC4_Test.Menu
+@inject AdminSidebarService _AdminSidebarService
+
+
+@{
+    ViewData["Title"] = "Danh sách các Role (vai trò)";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<partial name="_StatusMessage"></partial>
+
+
+<div class="mb-2">
+    <a class="btn btn-secondary" asp-action="Create">Tạo role mới</a>
+    <a class="btn btn-secondary" asp-action="Index" asp-controller="User">Quản lý User</a>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Tên Role (vai trò)</th>
+        <th>Tác vụ</th>
+    </tr>
+    @foreach (var role in Model)
+    {
+        <tr>
+            <td>
+                <p>@role.Name</p>
+                @foreach (var claim in @role.Claims)
+                {
+                    <small>@claim</small><br>
+                }
+            </td>
+            <td>
+                <a class="btn btn-success btn-sm" asp-action="Edit" asp-route-roleid="@role.Id">Cập nhật</a>
+                <a class="btn btn-success btn-sm" asp-action="Delete" asp-route-roleid="@role.Id">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>
+
+@{
+    _AdminSidebarService.SetActive("Role", "Index", "Identity"); //controller - action - area
+}
+
+@section Sidebar{
+
+    @Html.Raw(_AdminSidebarService.renderHtml())
+}

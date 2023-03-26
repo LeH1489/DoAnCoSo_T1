@@ -1,0 +1,34 @@
+
+
+@model HocAspMVC4_Test.Models.Blog.Post
+
+@using HocAspMVC4_Test.Menu
+@inject AdminSidebarService _AdminSidebarService
+
+@{
+    ViewData["Title"] = "Xóa bài viết";
+    Layout = "/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h6>Xóa bài viết này?</h6>
+<div>
+    <h4>@Model.Title</h4>
+    <hr />
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="PostId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Danh sách bài viết</a>
+    </form>
+</div>
+
+
+@{
+    _AdminSidebarService.SetActive("Post", "Index", "Blog"); //controller - action - area
+}
+
+@section Sidebar{
+
+    @Html.Raw(_AdminSidebarService.renderHtml())
+}

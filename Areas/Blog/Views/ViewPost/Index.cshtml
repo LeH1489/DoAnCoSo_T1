@@ -1,0 +1,92 @@
+﻿
+@using HocAspMVC4_Test.Views.Shared.Components.CategorySidebar
+@using HocAspMVC4_Test.Models.Blog
+
+@{
+    Layout = "_LayoutBlog.cshtml";
+}
+
+@model List<Post>
+
+@{
+    List<Category> categories = ViewBag.categories as List<Category>;
+    Category category = ViewBag.category as Category;
+    ViewData["Title"] = (category != null) ? category.Title : "Bài viết trong tất cả các chuyên mục";
+}
+
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">s
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        @if (category != null)
+            {
+                var li = category.ListParents();
+                foreach (var l in li)
+                {
+                    <li class="breadcrumb-item">
+                        <a asp-action="Index" asp-route-categoryslug="@l.Slug">@l.Title</a>
+                    </li>
+                }
+            }
+    </ol>
+</nav>
+
+
+<h1>@ViewData["Title"]</h1>
+
+
+
+@if (category != null)
+{
+    @*<p>@category.Title</p>*@
+}
+else
+{
+    <p>Bài viết trong tất cả các dạnh mục"</p>
+}
+
+
+<hr />
+
+<section class="post container ">
+    @foreach (var post in Model)
+        {
+            var srcImg = "/contents/nophoto.jpeg";
+            if (post.Photos.Any())
+            {
+                srcImg = $"/contents/BlogPhoto/{post.Photos.FirstOrDefault().FileName}";
+            }
+
+        <div class="post-box">
+            <img src="@srcImg"
+                 alt="" class="post-img">
+            <h2 class="category">@post.PostCategories.FirstOrDefault()?.Category.Title</h2>
+            <a class="post-title" asp-controller="ViewPost" asp-action="Details" asp-route-postslug="@post.Slug" asp-area="Blog">
+                @post.Title
+            </a>
+            <span class="post-date">@post.DateUpdated.ToShortDateString()</span>
+            <p class="post-description">@post.Description</p>
+            <!--Profile -->
+            <div class="profile">
+                <img src="https://images.unsplash.com/photo-1661956601031-4cf09efadfce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60"
+                     alt="" class="profile-img">
+                <span class="profile-name">@post.Author.UserName</span>
+            </div>
+        </div>
+    }
+</section>
+
+
+
+
+@section Sidebar {
+    @await Component.InvokeAsync("HocAspMVC4_Test.Views.Shared.Components.CategorySidebar.CategorySidebar", new CategorySidebar.CategorySibarData()
+     {
+         Categories = categories,
+         level = 0,
+         categoryslug = ViewBag.categoryslug
+     })
+}
+
+<partial name="_PagingXTL" model="@ViewBag.pagingModel" />
+
